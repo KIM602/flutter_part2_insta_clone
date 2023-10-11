@@ -141,14 +141,14 @@ class FeedItem extends StatelessWidget {
               Row(
                 children: [
                   IconButton(
-                      onPressed: () {}, icon: Icon(Icons.favorite_outline)),
+                      onPressed: () {}, icon: const Icon(Icons.favorite_outline)),
                   IconButton(
-                      onPressed: () {}, icon: Icon(CupertinoIcons.chat_bubble)),
+                      onPressed: () {}, icon: const Icon(CupertinoIcons.chat_bubble)),
                   IconButton(
-                      onPressed: () {}, icon: Icon(CupertinoIcons.paperplane)),
+                      onPressed: () {}, icon: const Icon(CupertinoIcons.paperplane)),
                 ],
               ),
-              IconButton(onPressed: () {}, icon: Icon(CupertinoIcons.bookmark)),
+              IconButton(onPressed: () {}, icon: const Icon(CupertinoIcons.bookmark)),
             ],
           ),
         ),
@@ -166,7 +166,7 @@ class FeedItem extends StatelessWidget {
               children: [
                 TextSpan(
                     text: feedData.userName,
-                    style: TextStyle(fontWeight: FontWeight.bold)),
+                    style: const TextStyle(fontWeight: FontWeight.bold)),
                 TextSpan(text: feedData.content),
               ],
               style: const TextStyle(color: Colors.black),
