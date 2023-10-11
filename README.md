@@ -1,6 +1,9 @@
 # part2_insta_clone
 
 A new Flutter project.
+Flutter 인스타 클론코딩
+![image](https://github.com/KIM602/flutter_part2_insta_clone/assets/112933103/9fbe9e5b-bd5f-48b1-a85a-10991796493e)
+![image](https://github.com/KIM602/flutter_part2_insta_clone/assets/112933103/0807d42d-b891-4787-97cc-8f2b1bce244f)
 
 ## Getting Started
 
